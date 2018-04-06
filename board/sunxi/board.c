@@ -35,6 +35,7 @@
 #include <spl.h>
 #include <sy8106a.h>
 #include <asm/setup.h>
+#include <fdt_support.h>
 
 #if defined CONFIG_VIDEO_LCD_PANEL_I2C && !(defined CONFIG_SPL_BUILD)
 /* So that we can use pin names in Kconfig and sunxi_name_to_gpio() */
